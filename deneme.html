@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>İlk başlığım</h1>
+    <main>
+        <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="Baliş için">
+
+        <p>Bu yolda attığım ilk adımlarım.Umarım güzel yerlere gelmeme araç olabilcek</p>
+        <a href="https://www.youtube.com/watch?v=NQSe-SuykJU&ab_channel=LukeBarousse">external link örneği</a> 
+        
+        <a href=#footer>iç link örneğine bas burada tanımlı footerın id olduğu yere gidersin</a>
+
+        <footer id="footer">hoşgeldin canısı</footer>
+        <!--
+            *_blank yeni sekmede link açtırır
+
+            *<a href="url"> açıklama</a> buradaki açıklama yazısı anchor text olarak geçer
+            target linkin nerede açılacağını belirtir.
+            Eğer target=_blank dersen yeni sekmede açılır
+            <a href="url" target="_blank"> açıklama</a> gibi...
+
+            *iç içe etiket kullanımı:
+            <p>View more <a href="url" target=_blank> cat photos</a></p> 
+            *deadlink yaratmak için:
+            href="#" kullanılır <a href="#"> açıklama</a> şeklinde...
+            <a href="#"><img alt="url" alt="açıklama"></a> resmi ölü link yapar
+
+            *Unordered lists start with an opening <ul> element, followed by any number of <li> elements. 
+
+            Finally, **unordered** lists close with a </ul>.
+
+            For example:
+
+            <ul>
+            <li>milk</li>
+            <li>cheese</li>
+            </ul>
+
+            *ordered list:
+            <ol>
+            <li>Garfield</li>
+            <li>Sylvester</li>
+            </ol>
+
+            *ziyaretçiden input almak için 
+            You can create a text input like this:
+
+            <input type="text">
+            Note that input elements are self-closing.
+
+            *ziyaretçiden alınacak inputun barına yazı yazmak için örn: 505xxxxxx
+            Placeholder text is what is displayed in your input element before your user has inputted anything.
+
+            You can create placeholder text like so:
+
+            <input type="text" placeholder="this is placeholder text"
+            *You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action attribute on your form element.
+
+            For example:
+
+            <form action="url-where-you-want-to-submit-form-data">
+            <input>
+            </form>
+
+            *Let's add a submit button to your form. Clicking this button will send the data from your form to the URL you specified with your form's action attribute.
+
+            Here's an example submit button:
+
+            <button type="submit">this button submits the form</button>
+            You can require specific form fields so that your user will not be able to submit your form until he or she has filled them out.
+
+            *kullanıcıdan input alırken doldurulmadan geçilmemesi gereken alan olarak yazmak için:
+
+            For example, if you wanted to make a text input field required, you can just add the attribute required within your input element, like this: <input type="text" required>
+
+            *yuvarlak seçilecek butonları oluşturmak için
+            <label> 
+            <input type="radio" name="indoor-outdoor">Indoor 
+            </label>
+
+            label ı yardımcı teknolojiler ile kullanabilmek için
+            <label for="indoor"> 
+            <input id="indoor" type="radio" name="indoor-outdoor">Indoor 
+            </label>
+            
+            *birden fazla işaretleme yapmak için (checkbox)
+            <label for="loving"><input id="loving" type="checkbox" name="personality"> Loving</label>
+            TÜM CHECKBOXLARIN NAME ÖZELLİĞİ AYNI OLMALI
+
+            *verileri kullanıcıdan alınacak inputlarla toplama işlemi tamam fakat kullanıcının verdiği değerleri default olarak değil de işaretlenen belirtilen şekilde almak istiyoruz.Bunun için işaretlenen belirtilen checkbox ya da radio buttonlarının değerlerine yani valuelarının belirtlimesine ihtiyacımız var bunun için her checkbox ya da radioyu belirttikten sonra id den sonra 
+
+            value="database e gönderilmek istenen değer" 
+            
+            olarak belirtmek gerekir.
+
+            *eğer kullanıcı işaretlemiş olarak belirtmemişse ya da default olarak seçili diye belirtmek istersek checked kullanırız.labelın içinde belirtilen radio ya da checkboxın kendi etiketi kapatılmadan hemen önce checked yazılarak işlem gerçekleştirilir.
+
+            *<div></div>
+            bir parçalam işlemi gerçekleştirir.
+
+            *<!DOCTYPE html>
+            <html>
+                </html>
+            sayfanın bir html sayfası olduğunu tarayıcıya bildirir. 
+
+            *You can build web forms that actually submit data to a server using nothing more than pure HTML. You can do this by specifying an action attribute on your form element.
+
+            For example:
+
+            <form action="url-where-you-want-to-submit-form-data">
+            <input>
+            </form>
+
+            *boşluk bırakmak için <br>
+
+            *TRONG ve B Etiketi
+            <strong> etiketi bir metinin arama motorlarına önemli olduğunu bildirmek için kullanılır. Kullanıldığı zaman metini kalın yapar. Eğer sadece metini kalınlaştırmak isterseniz <b> etiketini kullanabilirsiniz.
+
+            *<h2><strong> Kodluyoruz </strong></h2>
+             <p><b> HTML </b> Etiketleri </p>   
+            
+            
+            *iframe Etiketi
+            Belge içinde belge gösterebilmemizi sağlayan etikettir. Genelde başka bir sitedeki belgeyi kendi sayfamızda göstermek için kullanırız. örn: Youtube'dan bir videoyu sayfamızda göstermek istersek <iframe> kodlarını sayfamıza eklememiz yeterli.(video üzerinde sağ tıklayıp yerleştirme kodunu kopyala diyerek iframe kodunu kopyalayabiliriz.) 
+                <iframe width="1519" height="581" src="https://www.youtube.com/embed/BHPYQHnD_QA" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            * herhangi bir sayfayı incelerken bulmak istediğimiz yazıları aramak için ctrl+f tuşuna basıp aramak istediğimiz kodu yazabiliriz
+            
+        
+        
+        -->
+
+
+
+    </main>
+</body>
+</html>
