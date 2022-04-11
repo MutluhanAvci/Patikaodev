@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yılmaz Avcı</title>
+    <style>
+        .head-text{
+            color: firebrick;
+        }
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: xx-large;
+            
+        }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: x-large;
+            font-style: initial;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <h1 class="h1"><b>Yılmaz Avcı</b></h1>
+    <br>
+    <h2 class="head-text">Hakkımda</h2>
+    
+    <p class="p">Herkese merhaba ben Yılmaz Avcı 23 yaşındayım Gazi Üniversitesinde Endüstri Mühendisliği son sınıf öğrencisiyim <a href="https://app.patika.dev/" target="_blank">patika'dan </a> öğrendiklerimi göstermek için hakkımdaki bazı bilgileri britakım HTML etiketlerini kullanarak göstermeye çalışacağım...</p>
+    <h2>İlgi Alanlarım</h2>
+    <ol>
+        <li>Film</li>
+        <ul>
+            <li><a href="https://www.imdb.com/title/tt0816692/">Interstaller</a></li>
+            <li>Arif v 216</li>
+            <li>Who am I</li>
+        </ul>
+        <li>Dizi</li>
+        <ul>
+            <li><a href="https://www.imdb.com/title/tt13865736/">Börü2039</a></li>
+            <li>Avrupa Yakası</li>
+            <li>How to Sell Drugs Online Fast</li>
+        </ul>
+        <li>Kitap</li>
+        <ul>
+            <li><a href="https://www.goodreads.com/book/show/9125658-ulu-reis?from_search=true&from_srp=true&qid=l0YwZtVKGs&rank=1">Uluç Reis</a></li>
+            <li>Martin Eden</li>
+            <li>Benim Üniversitelerim</li>
+        </ul>
+    </ol>
+   
+        <p>Eğer anketime katılmak isterseniz <a href="#footer">buradan</a> ulaşabilirsiniz</p>
+            <img src="/lorem picsum/favtriple.png" alt="FavTriple" usemap="#workmap0">
+            <map name="workmap0">
+                <area shape="rect" coords="37,17,1385,2173" href="https://tr.wikipedia.org/wiki/Y%C4%B1ld%C4%B1zlararas%C4%B1" title="Interstaller" alt="Interstaller">
+                <area shape="rect" coords="9,2201,1365,2957" href="https://www.blutv.com/diziler/yerli/boru-2039" target="_blank" title="BÖRÜ2039" alt="BÖRÜ2039">
+                <area shape="rect" coords="1413,13,3401,2897" href="https://puhutv.com/eskiya-izle" target="_blank" title="Eşkıya" alt="Eşkıya">
+               
+            </map>
+            <p>Benim favori üçlüm yukarıdaki gibi :)) isterseniz görsellerin üstüne tıklayarak ilgili sayfalarına ulaşabilirsiniz...</p> <div> <ol><br><h2 class="head-text">Hedeflerim:</h2>
+                <br>
+                <li>Front-End patikası bitirilecek</li><br>
+                <li>Back-End için <span ><strong>Python,Java,C#</strong></span>  dillerinden birini seçip öğrenmek</li><br>
+                <li>Veritabanı için başlangıçta MsSql,MongoDB,Postgre'den birini seçip öğrenmek</li><br>
+                <li>Cloud için <span style="color:rgb(235, 39, 4); ;">AWS</span> veya <span style="color: rgb(23, 212, 23);">Azure'dan</span> birini öğrenmek</li><br>
+                <li>API,Microservices gibi konular da dahil olmak üzere Back-End'de uzmanlaşmak</li><br>
+                <li>Saygınlık</li><br>
+                
+            </ol></div>
+            <h2 id="footer" class="head-text">Anket</h2>
+            <p>Eğer isterseniz siz de bana öğrenmem gereken dil konusunda önce tercihinizi işaretleyerek sonra sebebini belirterek fikir belirtebilirsiniz..:)</p>
+                <form action="mailto:mutluhan9906@gmail.com"><!-- form action form doldurulduktan sonra eklenecek butonun formu nereye gönderileceğini belirtir-->
+                    <label for="Python"><input id="Python" value="python" type="radio"name="language">Python</label>
+                    <label for="Java"><input id="Java" value="java" type="radio"name="language">Java</label>
+                    <label for="C#"><input id="C#" value="C#" type="radio" name="language">C#</label>
+                    <br></br>
+                    <label for="veritabanı"><input type="checkbox" name="db" id="database"value="MsSql">MsSql</label><br></br><label for="veritabanı"><input type="checkbox" name="db" id="database"value="MongoDB">MongoDB</label><br></br><label for="veritabanı"><input type="checkbox" name="db" id="database"value="Postgre">Postgre</label><br></br>
+                    <label for="veritabanı"><input type="checkbox" name="db" id="database"value="Azure">Azure</label><br></br><label for="veritabanı"><input type="checkbox" name="db" id="database"value="AWS">AWS</label><br></br>
+        
+                    <input type="text" placeholder="Açıklama?">
+                    <button type="Gönder" required="">Gönder</button>
+                    <!-- buton placeholder radiolar için freecodecamp sayfasına da bakabilirsiniz-->
+                
+                </form>
+</body>
+</html>
